@@ -28,3 +28,18 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 
 MIT
+
+## Plan for Overhauling the Code
+
+## 1. For keep_awake.py:
+   - Enhance the UI with better color schemes and potentially add some ASCII art for better visual appeal.
+   - Improve the loading animation.
+   - Use argparse for command-line arguments instead of directly using sys.argv for better maintainability and user experience.
+   - Add more settings options for customization.
+
+## 2. For monitoring.py:
+   - Use a library like 'psutil' for better system monitoring.
+   - Add CPU, RAM, and other system metrics.
+   - Enhance the UI and add categories like 'Most Used Programs', 'Main Watch', and 'Unknown'.
+   - Use argparse for command-line arguments.
+   - Show real-time updates without refreshing the entire screen.
